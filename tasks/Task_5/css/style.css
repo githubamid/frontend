@@ -1,0 +1,75 @@
+.box {
+    background-color:green;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 3px solid black ;
+    margin: 20px;
+}
+/*             Task_1 */
+* {
+    box-sizing: border-box;
+}
+
+/*             Task_2 */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+/*             Task_3 */
+h2 {
+    color:cornflowerblue;
+    font-size: 30px;
+    text-align: center;
+}
+nav {
+    position: absolute;
+    left: 670px;
+}
+.cont {
+    position: relative;
+    background-color:brown;
+    height: 300px;
+}
+
+/*             Task_4 */
+.red {
+    background-color:red;
+/*     width: 300px;
+    height: 300px; */
+    padding: 20px;
+    border: 3px solid black ;
+    margin: 20px;
+    float:left;
+    height: 50vh;
+    width: 50vw;
+}
+
+
+
+.cards {
+    position: absolute;
+}
+.blue {
+    background-color:blue;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 3px solid black ;
+    margin: 20px;
+    display: inline-block;
+}
+
+.yellow {
+    background-color:yellow;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 3px solid black ;
+    margin: 20px;
+    display: inline-block;
+    left: 20px;
+    top: 20px;
+}

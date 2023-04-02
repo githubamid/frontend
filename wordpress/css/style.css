@@ -157,13 +157,13 @@ h2.title {
 
 .waiting .waiting_wropper {
     margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .waiting .waiting_wropper .waiting_item {
     width: 342px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
 }
 
 .waiting .waiting_wropper .waiting_item .waiting_img {

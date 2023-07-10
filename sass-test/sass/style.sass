@@ -1,0 +1,23 @@
+$text_color: blue
+@mixin box
+    widows: 450px
+    height: 20px
+    background-color: red
+    
+
+h1
+    color: $text_color
+    font-size: 50px
+h2
+    color: $text_color
+
+.block
+    background-color: black
+    h3
+        color: $text_color
+
+    &_color
+        background-color: white
+        
+        button
+            @include box

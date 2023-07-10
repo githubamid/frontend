@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+h2 {
+  color: blue;
+}
+
+.block {
+  background-color: black;
+}
+.block h3 {
+  color: blue;
+}
+.block_color {
+  background-color: white;
+}
+.block_color button {
+  widows: 450px;
+  height: 20px;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

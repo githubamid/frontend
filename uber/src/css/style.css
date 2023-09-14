@@ -4,7 +4,7 @@
 
 nav {
   height: 50px;
-  background-color: black;
+  background-color: #212121;
 }
 
 .menu {
@@ -14,13 +14,13 @@ nav {
   margin: 0;
   list-style-type: none;
 }
-.menu .menu_link {
+.menu_link {
   color: #FFF;
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
 }
-.menu .menu_item {
+.menu_item {
   border-right: 2px dotted black;
   padding-right: 28px;
 }
@@ -453,4 +453,13 @@ nav {
   text-align: center;
 }
 
-/*     &_mobile *//*# sourceMappingURL=style.css.map */
+/*     &_mobile */
+.menu_link {
+  font-size: 13px;
+}
+.menu_item {
+  padding-right: 20px;
+}
+.menu_item:last-child {
+  border-right: none;
+}/*# sourceMappingURL=style.css.map */

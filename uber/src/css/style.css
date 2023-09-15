@@ -103,7 +103,7 @@ nav {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 36px;
   text-transform: uppercase;
   margin: 0;
   margin-top: 22px;
@@ -462,4 +462,8 @@ nav {
 }
 .menu_item:last-child {
   border-right: none;
+}
+
+.promo .promo_header {
+  font-size: 50px;
 }/*# sourceMappingURL=style.css.map */

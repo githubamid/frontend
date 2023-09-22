@@ -490,4 +490,24 @@ nav {
   .subheader .subheader_official {
     font-size: 10px;
   }
+  .subheader .subheader_phone {
+    font-size: 18px;
+  }
+  .subheader .subheader_button {
+    line-height: 40px;
+    margin-top: 26px;
+  }
+  .promo .promo_header {
+    font-size: 40px;
+  }
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  .reasons_descr {
+    margin-top: 20px;
+  }
+  .reasons_block {
+    align-items: center;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

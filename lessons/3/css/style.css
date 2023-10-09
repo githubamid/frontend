@@ -1,3 +1,9 @@
 .text {
     background-color: cornsilk;
+    height: 100px;
+    width: 700px;
+}
+
+.contact {
+    margin-top: 50px;
 }

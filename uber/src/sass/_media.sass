@@ -21,6 +21,21 @@
     .mobile
         &_item
             width: 300px
+    .footer
+        &_wrapper > div 
+            width: 50%
+            &:nth-child(1)
+                width: 25%
+            &:nth-child(3)
+                width: 25%
+                display: flex 
+                justify-content: flex-end
+        &_mobile
+            display: flex
+            a 
+                margin: 0 3px
+                img 
+                    width: 100%
 @media (max-width: 991px)
     .menu
         &_link 
@@ -49,6 +64,27 @@
         &_block
             align-items: center
             flex-direction: column
+    .mobile
+        .mobile_item
+           width: 230px
+    .choice
+        .choice_img
+            max-width: 600px
+    .world
+        min-height: 650px
+    .footer
+        &_wrapper
+            flex-wrap: wrap
+        &_wrapper > div 
+            width: 100%
+            display: flex 
+            justify-content: center
+            margin-bottom: 20px
+            &:nth-child(1)
+                width: 100%
+            &:nth-child(3)
+                width: 100%
+                justify-content: center
 @media (max-width: 767px)
     .menu
         position: fixed
@@ -118,13 +154,23 @@
     .promo
         .promo_header
             line-height: 45px
+    .choice
+        .choice_img
+            max-width: 490px
+    .world 
+        min-height: 450px
 @media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
     .subheader
         height: 60px
+        top: 30px
         .subheader_official
             display: none
         .subheader_logo
-            margin-top: 27px
+            margin-top: 16px
         .subheader_phone
             font-size: 12px
             font-weight: 400
@@ -135,6 +181,8 @@
             height: 22px
             font-size: 10px
             margin-top: 7px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
     .promo
         min-height: 400px
         .promo_descr
@@ -155,7 +203,58 @@
         width: 55%
     .reasons
         padding: 22px 0px 36px 0
+        .reasons_block
+            margin-top: 10px
+        .reasons_round
+            width: 100px
+            height: 100px
+        .reasons_descr
+            width: 100%
+            margin-top: 17px
+        .reasons_subtitle
+            font-size: 16px
     .title
         font-size: 16px
         line-height: 16px
         margin-top: 15px
+    .choice
+        min-height: 500px
+        padding-bottom: 10px
+        .choice_img
+            max-width: 300px
+    .world
+        min-height: 360px
+        padding: 25px 0 30px 0
+        &_link 
+            width: 200px
+            display: block
+            bottom: 30px
+            line-height: 15px
+    footer 
+        padding: 25px 0 20px 0
+    .footer 
+        &_divider
+            width: 253px
+            margin: 0 auto
+        &_wrapper
+            padding-top: 22px
+        &_wrapper > div 
+            margin-bottom: 20px
+            &:nth-child(1)
+                order: 2
+            &:nth-child(2)
+                order: 1
+            &:nth-child(3)
+                order: 3
+        &_links 
+            width: 290px 
+            &_main 
+                padding: 0
+                font-size: 14px
+            &_sub 
+                flex-wrap: wrap
+                justify-content: center
+                a 
+                    margin: 0 7px
+            &_lang 
+                margin-top: 10

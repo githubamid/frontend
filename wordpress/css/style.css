@@ -158,6 +158,7 @@ h2.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: justify;
 }
 
 .waiting .waiting_wropper .waiting_item {
